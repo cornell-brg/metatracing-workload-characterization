@@ -21,6 +21,13 @@ Implemented
  - Application-level hints: I think this is in an older version of this
    repo. I'll find the code for that and merge it into this PyPy repo.
 
+## PinTools
+
+ - [PyPy Phases](https://github.com/cornell-brg/pin/tree/master/source/tools/pypy_phases):
+   Extracts phase information from PyPy.
+ - [PyPy Mem Deps](https://github.com/cornell-brg/pin/tree/master/source/tools/pypy_mem_deps):
+   Tracks memory dependencies between JIT IR nodes.
+
 ## Benchmarks
 
  - PyPy benchmark suite: PyPy, PyPy-nojit, CPython
