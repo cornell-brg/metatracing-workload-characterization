@@ -1,5 +1,26 @@
 # Cross-Layer Characterization of Meta-Tracing JIT Performance
 
+## Cross-layer hints
+
+Implemented
+[here](https://github.com/cornell-brg/pypy/blob/master/rpython/rlib/pyxcel/hook.py).
+ - [Blackhole hints](https://github.com/cornell-brg/pypy/blob/master/rpython/jit/metainterp/blackhole.py#L327-L340)
+ - Tracing hints:
+   [here](https://github.com/cornell-brg/pypy/blob/master/rpython/jit/metainterp/pyjitpl.py#L2374),
+   [here](https://github.com/cornell-brg/pypy/blob/master/rpython/jit/metainterp/pyjitpl.py#L2392),
+   [here](https://github.com/cornell-brg/pypy/blob/master/rpython/jit/metainterp/pyjitpl.py#L2412),
+   and [here](https://github.com/cornell-brg/pypy/blob/master/rpython/jit/metainterp/pyjitpl.py#L2435)
+ - GC hints:
+   [here](https://github.com/cornell-brg/pypy/blob/master/rpython/memory/gc/incminimark.py#L1613),
+   [here](https://github.com/cornell-brg/pypy/blob/master/rpython/memory/gc/incminimark.py#L1814),
+   [here](https://github.com/cornell-brg/pypy/blob/master/rpython/memory/gc/incminimark.py#L2198),
+   and [here](https://github.com/cornell-brg/pypy/blob/master/rpython/memory/gc/incminimark.py#L2414)
+ - IR-level hints:
+   [usage](https://github.com/cornell-brg/pypy/blob/master/rpython/jit/backend/x86/regalloc.py#L372) and
+   [implementation](https://github.com/cornell-brg/pypy/blob/master/rpython/jit/backend/x86/assembler.py#L2765-L2767)
+ - Application-level hints: I think this is in an older version of this
+   repo. I'll find the code for that and merge it into this PyPy repo.
+
 ## Benchmarks
 
  - PyPy benchmark suite: PyPy, PyPy-nojit, CPython
