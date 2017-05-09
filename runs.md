@@ -80,3 +80,18 @@ activity interval = 10K
 ```
    PYXCEL_SETTINGS=perf_hooks,perf_stats_filename=perf_out/$3.csv,perf_num_samples=$NUM_SAMPLES pypy ...
 ```
+
+## TODO:
+
+Common dir for gcc, pypy, pycket. Common dir for sim results.
+
+Globally install racket.
+
+Clean up benchmarksgame.
+
+## Simulation runs table
+
+| *Start date/time* | *who* | *machine* | *st/mt* | *study* | *dir* | *pypy hash* | *pin hash* | *benchmark hash* | *notes* |
+| ----------------- | ----- | --------- | ------- | ------- | ----- | ----------- | ---------- | ---------------- | ------- |
+
+
