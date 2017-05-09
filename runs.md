@@ -89,6 +89,14 @@ Globally install racket.
 
 Clean up benchmarksgame.
 
+## Output dir
+
+```
+  /work/bits0/pyxcel/sim_outs/outs_<id>_<study>
+  e.g.:
+  /work/bits0/pyxcel/sim_outs/outs_0_10
+```
+
 ## Simulation runs table
 
 | *id* | *Start date/time* | *who* | *machine* | *st/mt* | *study* | *dir* | *pypy hash* | *pin hash* | *benchmark hash* | *notes* |
