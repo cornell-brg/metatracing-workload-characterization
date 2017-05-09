@@ -102,4 +102,7 @@ Clean up benchmarksgame.
 | *id* | *Start date/time* | *who* | *machine* | *st/mt* | *study* | *dir* | *pypy hash* | *pin hash* | *benchmark hash* | *notes* |
 | ---- | ----------------- | ----- | --------- | ------- | ------- | ----- | ----------- | ---------- | ---------------- | ------- |
 
+## Plotting
+
+https://github.com/dl575/tsg_plot
 
