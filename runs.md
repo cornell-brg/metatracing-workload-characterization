@@ -99,8 +99,8 @@ Clean up benchmarksgame.
 
 ## Simulation runs table
 
-| *id* | *Start date/time* | *who* | *machine* | *st/mt* | *study* | *dir* | *pypy hash* | *pin hash* | *benchmark hash* | *notes* |
-| ---- | ----------------- | ----- | --------- | ------- | ------- | ----- | ----------- | ---------- | ---------------- | ------- |
+| *id* | *Start date/time* | *who* | *machine* | *st/mt* | *study* | *pypy hash* | *pin hash* | *benchmark hash* | *notes* | *status* |
+| ---- | ----------------- | ----- | --------- | ------- | ------- | ----------- | ---------- | ---------------- | ------- | --------- |
 
 ## Plotting
 
