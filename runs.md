@@ -5,6 +5,29 @@
 | Benchmarks game | (1)       | (2)    | (3)    | (4)   | (5)    |
 | PyPy benchmarks | (6)       | (7)    | (8)    | (9)   | (10)   |
 
+## (2)
+
+TODO(berkin): need cmdline flag for bencher for this
+
+```
+  cd bencher/bin
+  ./bencher.py
+```
+
+## (3)
+
+```
+  ./run.sh
+```
+
+
+## (5)
+
+```
+  cd bencher/bin
+  ./bencher.py
+```
+
 ## (7)
 
 ```
@@ -25,28 +48,6 @@ Compare PyPy to CPython and PyPy w/o JIT (`pypy --jit off`).
 
 ```
   <python-baseline> ./runner.py --changed=<path-to-pypy>
-```
-
-## (5)
-
-```
-  cd bencher/bin
-  ./bencher.py
-```
-
-## (2)
-
-TODO(berkin): need cmdline flag for bencher for this
-
-```
-  cd bencher/bin
-  ./bencher.py
-```
-
-## (3)
-
-```
-  ./run.sh
 ```
 
 ## Benchmarks Game
